@@ -9,7 +9,6 @@ Questo è una implementazione del classico gioco da tavolo "Gioco dell'Oca" util
 *   **Interfaccia Grafica:**  Utilizza Pygame per un'esperienza visiva interattiva.
 *   **Supporto Multi-Giocatore:** Permette a 2-6 giocatori di partecipare.
 *   **Regole Speciali:** Implementa regole specifiche per determinate caselle (es. casella 6, 19, 26, 42, 52, 58), influenzando il movimento dei giocatori.
-*   **Schermate Interattive:** Include schermata di benvenuto, inserimento giocatori e regole del gioco.
 *   **Immagini Personalizzate:** Utilizzo di immagini personalizzate per sfondi e pedine dei giocatori.
 *   **Gestione dei Turni:** Gestisce i turni dei giocatori, inclusi i casi in cui un giocatore deve saltare un turno.
 
@@ -23,27 +22,27 @@ Questo è una implementazione del classico gioco da tavolo "Gioco dell'Oca" util
     pip install pygame
     ```
 
-3.  **Clona il Repository (opzionale):** Se hai il codice sorgente in un repository Git, clonalo:
+3.  **Clona il Repository:** Clona il codice sorgente in un repository Git:
 
     ```bash
-    git clone [URL del tuo repository]
+    git clone https://github.com/emamira02/gioco_oca.git
     cd [nome della cartella del tuo progetto]
     ```
 
 4.  **Scarica i File:** Assicurati di avere tutti i file necessari nella stessa directory:
 
-    *   `GiocoOca.py` (o il nome del tuo file principale)
-    *   La cartella `font_sfondo/` contenente i font (`Font1.ttf`, `Font4.ttf`, `Font5.ttf` e le immagini di sfondo: `Sfondo1.png`, `Sfondo2.png`, `Sfondo3.png`).
-    *   La cartella `players/` contenente le immagini delle pedine (`Sparky.jpeg`, `Ciruzza.jpeg`, `ElPrimitivo.jpeg`, `Eugenio.jpeg`, `Natasha.jpeg`, `Jennifer.jpeg`).
+    *   `main.py`
+    *   La cartella `font_sfondo/` contenente i font e le immagini di sfondo.
+    *   La cartella `players/` contenente le immagini delle pedine.
 
 ## Come Eseguire il Gioco
 
 1.  **Apri un Terminale o Prompt dei comandi.**
-2.  **Naviga alla directory** dove hai salvato il file `GiocoOca.py` e le cartelle `font_sfondo/` e `players/`.
+2.  **Naviga alla directory** dove hai salvato il file `main.py` e le cartelle `font_sfondo/` e `players/`.
 3.  **Esegui il gioco:**
 
     ```bash
-    python GiocoOca.py
+    python main.py
     ```
 
 ## Istruzioni di Gioco
@@ -67,5 +66,3 @@ Questo è una implementazione del classico gioco da tavolo "Gioco dell'Oca" util
 *   **SPAZIO:** Lancia i dadi durante il gioco.
 *   **ESC:** Esci dal gioco.
 *   **CTRL:** Ricomincia una nuova partita dalla schermata di vittoria.
-
-## Struttura dei File
